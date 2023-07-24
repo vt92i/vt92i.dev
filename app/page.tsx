@@ -1,5 +1,15 @@
-const Home = () => {
-  return <div>Welcome to cruel world!</div>;
+import Footer from "@/components/footer";
+import Home from "@/components/home";
+import NavBar from "@/components/navbar";
+
+const Index = () => {
+  return (
+    <>
+      <NavBar />
+      <Home />
+      <Footer />
+    </>
+  );
 };
 
-export default Home;
+export default Index;
