@@ -1,3 +1,5 @@
+"use client";
+
 const Home = () => {
   return (
     <div className="flex flex-grow flex-col items-center justify-center bg-stone-900/25 p-8">

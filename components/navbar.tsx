@@ -32,6 +32,10 @@ const NavBar = () => {
         <li className="p-4 transition-colors dark:text-white/50 dark:hover:bg-stone-900/50">
           Terminal
         </li>
+        <li className="p-4"></li>
+        <li className="p-4 transition-colors dark:text-white/50 dark:hover:bg-stone-900/50">
+          Usage
+        </li>
       </ul>
       <div className="flex hover:animate-pulse hover:cursor-pointer dark:text-white/90">
         <Moon size={24} strokeWidth={1.0} />
